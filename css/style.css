@@ -1,0 +1,251 @@
+.main-slider img {
+	width: 100%;
+	filter: brightness(.35);
+}
+
+.features .features-items .features-item {
+	width: 25%;
+}
+
+.features .features-items .features-item hr {
+	background-color: #959595;
+}
+
+.features .features-items .features-item:hover h3 {
+	color: #998675;
+}
+
+.features .features-items .features-item:hover hr {
+	background-color: #998675;
+}
+
+.screen {
+	background-color: #f8faf8;
+	padding-top: 2.5em;
+	text-align: center;
+}
+
+.screen img {
+	width: 75%;
+	margin-top: 5em;
+	margin-bottom: -.75em;
+}
+
+.purchase {
+	text-align: left;
+}
+
+.purchase > .d-flex {
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.purchase .purchase-text h4 {
+	font-size: 1.75em;
+	line-height: 2em;
+	color: white;
+}
+
+.purchase .purchase-text p {
+	color: #f8faf8;
+}
+
+.purchase a.btn {
+	width: 15%;
+}
+
+.purchase a.btn:hover {
+	background-color: white;
+	color: #372F2D;
+}
+
+.portfolio .portfolio-item img {
+	width: 100%;
+}
+
+.portfolio .portfolio-items:first-child {
+	margin-top: 2.5em;
+}
+
+.portfolio .portfolio-item {
+	align-self: center;
+	margin: 0;
+	margin-bottom: -.25em;
+	height: 100%;
+}
+
+.portfolio .portfolio-items:hover {
+	cursor: pointer;
+	background-color: #372F2D;
+	transition: .25s;
+}
+
+.portfolio .portfolio-items:hover h3 {
+	color: white;
+}
+
+.portfolio .portfolio-items:hover a {
+	color: white;
+}
+
+.portfolio .portfolio-items:hover a:hover {
+	color: #998675;
+}
+
+.portfolio .portfolio-item:first-child {
+	width: 50%;
+}
+
+.portfolio .portfolio-item:last-child {
+	width: 50%;
+}
+
+.portfolio .portfolio-item a {
+	color: #555;
+	margin-top: 2.5em;
+	display: block;
+}
+
+.portfolio .portfolio-item a:hover {
+	color: #372F2D;
+	text-decoration: underline;
+}
+
+.portfolio a.btn {
+	margin: 0 auto;
+	margin-top: 2.5em;
+}
+
+.advantages .advantages-items .advantages-item {
+	width: 20%;
+}
+
+.advantages .advantages-items .advantages-item img,
+.advantages .advantages-items .advantages-item b,
+.advantages .advantages-items .advantages-item span,
+.advantages .advantages-items .advantages-item hr {
+	display: block;
+	margin: 0 auto;
+}
+
+.advantages .advantages-items .advantages-item b {
+	color: white;
+	margin-top: .25em;
+	font-size: 3em;
+}
+
+.advantages .advantages-items .advantages-item span {
+	color: #998675;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+.advantages .advantages-items .advantages-item hr {
+	width: 25%;
+	border: none;
+	height: 2px;
+	margin-top: 2em;
+	background-color: #998675;
+}
+
+.advantages .advantages-items .advantages-item:hover img {
+	filter: brightness(5);
+}
+
+.advantages .advantages-items .advantages-item:hover span {
+	color: white;
+}
+
+.advantages .advantages-items .advantages-item:hover hr {
+	background-color: white;
+}
+
+.about {
+	padding-bottom: 0;
+	text-align: left;
+}
+
+.about p.desc {
+	width: 100%;
+	line-height: 1.75em;
+}
+
+.about .about-items .about-item {
+	align-self: center;
+}
+
+.about .about-items .about-item:first-child {
+	width: 75%;
+}
+
+.about .about-items .about-item:last-child {
+	width: 100%;
+}
+
+.about .about-items .about-item img,
+.blog .blog-items .blog-item img {
+	width: 100%;
+}
+
+.about .about-items .about-item img {
+	margin-bottom: -.75em;
+}
+
+.about .about-items .about-item ul li {
+	list-style: url(../i/mark.png);;
+	margin-left: 2.5em;
+	padding-left: 1em;
+	line-height: 1.75em;
+	color: #959595;
+}
+
+.sponsors {
+	background-image: url(../i/bc.jpg);
+	margin-bottom: -5em;
+	display: block;
+}
+
+.sponsors .sponsors-items .sponsors-item {
+	align-self: center;
+}
+
+.sponsors .sponsors-items .sponsors-item:hover {
+	opacity: .5;
+	transition: .25s;
+}
+
+.sponsors .sponsors-items .sponsors-item img {
+	width: 100%;
+}
+
+.blog .blog-items .blog-item {
+	text-align: left;
+	background-color: #f8faf8;
+	border-radius: .25em;
+	padding: 1em;
+	background-color: #372F2D;
+}
+
+.blog .blog-items .blog-item h3 {
+	color: white;
+}
+
+.blog .blog-items .blog-item a {
+	margin-top: 1em;
+	color: #fff;
+	display: block;
+}
+
+.blog .blog-items .blog-item a:hover {
+	color: #998675;
+}
+
+.blog a.btn {
+	width: 20%;
+	margin: 2.5em auto 0 auto;
+}
+
+.blog a.btn:hover {
+	background-color: white;
+	color: #372F2D;
+}
